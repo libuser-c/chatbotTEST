@@ -15,7 +15,7 @@ def get_stopwords():
     nltk.download('stopwords')
 
 st.set_page_config(page_title="Chat with a friend on the works of Rabindranath Tagore", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Chat with a friend on the works of Rabindranath Tagore")
+st.title("Let's talk about the library")
 
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
